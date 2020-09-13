@@ -1,0 +1,282 @@
+html,
+body {
+  min-width: 360px; }
+
+@media (min-width: 768px) {
+  #mobile-indicator {
+    display: none; }
+  .navbar-wrapper {
+    display: block !important;
+    opacity: 1 !important; }
+  .navbar-trigger {
+    display: none; } }
+
+@media (max-width: 1199px) {
+  h1,
+  .h1 {
+    font-size: 50px;
+    line-height: 55px; }
+  h2,
+  .h2 {
+    font-size: 45px;
+    line-height: 52px; }
+  .action-ttl {
+    font-size: 25px;
+    line-height: 35px; }
+  .header-col-1,
+  .header-col-3 {
+    flex: 0 0 33%;
+    max-width: 33%; } }
+
+@media (max-width: 991px) {
+  .header-button .btn {
+    min-width: 0; }
+  .header-col-1,
+  .header-col-3 {
+    flex: 0 0 36%;
+    max-width: 36%; }
+  .header-content {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  .header-phone {
+    font-size: 22px; }
+  .header-address {
+    line-height: 20px; }
+  .header-fixed .header-address {
+    display: none; }
+  .header-fixed .header-phone {
+    margin-top: 11px; }
+  .top-circle {
+    width: 240px;
+    height: 240px; }
+  h1,
+  .h1 {
+    font-size: 40px;
+    line-height: 50px; }
+  h2,
+  .h2 {
+    font-size: 40px;
+    line-height: 50px; }
+  .menu-col-l,
+  .menu-col-r {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  .section-top-text {
+    margin-top: 15px; } }
+
+@media (max-width: 767px) {
+  .btn-1,
+  .btn-1:focus,
+  .btn-2,
+  .btn-2:focus {
+    padding: 12px 20px 12px 20px; }
+  body,
+  html {
+    font-size: 16px; }
+  .header-col-1 {
+    order: 2;
+    flex: 0 0 50%;
+    max-width: 50%; }
+  .header-col-2 {
+    order: 1;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .header-col-3 {
+    order: 3;
+    flex: 0 0 50%;
+    max-width: 50%; }
+  .header-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0; }
+  .header-content {
+    padding: 15px 0 15px 0px; }
+  .header-content .row {
+    margin: 0 -10px; }
+  .header-content .row > * {
+    padding: 0 10px; }
+  .header-contacts {
+    text-align: center; }
+  .header-phone {
+    font-size: 18px;
+    line-height: 20px;
+    transition: none; }
+  .header-address {
+    font-size: 12px;
+    line-height: 16px; }
+  .header-button .btn-1,
+  .header-button .btn-1:focus {
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 24px; }
+  .top-circle {
+    width: 140px;
+    height: 140px;
+    font-size: 14px;
+    line-height: 18px; }
+  .top-circle-content {
+    padding: 10px; }
+  .section-top-col-l,
+  .section-top-col-r {
+    flex: 0 0 170px;
+    max-width: 170px; }
+  .section-top-pic {
+    height: 540px; }
+  h1,
+  .h1 {
+    font-size: 34px;
+    line-height: 44px; }
+  .section-top-sub-ttl {
+    font-size: 16px; }
+  .section-top-arrow {
+    transform: scale(0.75);
+    transform-origin: center bottom; }
+  .section-top-text {
+    padding-bottom: 95px; }
+  h2,
+  .h2 {
+    font-size: 28px;
+    line-height: 36px; }
+  .slick-prev {
+    left: 5px; }
+  .slick-next {
+    right: 5px; }
+  .show-slider .slick-prev {
+    left: -10px; }
+  .show-slider .slick-next {
+    right: -10px; }
+  .section-content {
+    padding: 30px 0; }
+  .form-footer {
+    margin-top: 25px; }
+  .section-girls-pic img {
+    width: 160px !important; }
+  .section-gift-bg {
+    height: 600px;
+    top: -110px; }
+  .section-girls-bg {
+    height: 338px;
+    top: -70px; }
+  .section-heat .section-gift-bg {
+    top: -90px; }
+  .menu-wrapper {
+    margin-top: 140px; }
+  .menu-pic {
+    height: 382px;
+    top: -161px; }
+  .menu-tmb {
+    font-size: 14px; }
+  .menu-tmb h3, .menu-tmb .h3 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0; }
+  .menu-tmb-descr {
+    margin-top: -30px; }
+  .menu-tmb-button .btn {
+    min-width: 0; }
+  .price-tmb-inner {
+    padding: 20px 0 20px 0; }
+  .price-tmb-ttl {
+    font-size: 16px;
+    line-height: 1.5; }
+  .price-tmb-price {
+    font-size: 30px;
+    line-height: 40px; }
+  .price-tmb-pic img {
+    height: 75px; }
+  .section-price,
+  .section-contacts {
+    margin-top: 0px; }
+  .section-price .section-gift-bg {
+    top: -130px; }
+  .contacts-buttons {
+    margin-top: 20px;
+    text-align: center; }
+  .contacts-buttons .btn {
+    margin: 0 0 20px 0;
+    width: auto;
+    min-width: 220px; }
+  .contacts-map-wrapper {
+    width: 330px;
+    height: 330px; }
+  .timetable-pic {
+    margin: 0; }
+  .col-timetable-1 {
+    order: 2; }
+  .col-timetable-2 {
+    order: 1;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .col-timetable-3 {
+    order: 3; }
+  .col-timetable-1,
+  .col-timetable-3 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  .timetable-pic {
+    text-align: center;
+    margin: 0 0 20px 0; }
+  .timetable-time {
+    font-size: 22px; }
+  .footer-col-1 {
+    order: 2; }
+  .footer-col-2 {
+    order: 1;
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .footer-col-3 {
+    order: 3; }
+  .footer-top {
+    margin: 0; }
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0; }
+  .footer-content {
+    padding: 40px 0 40px 0; }
+  .footer-link {
+    width: 145px;
+    height: 145px; }
+  .footer-top .row {
+    justify-content: center; }
+  .footer-copy {
+    font-size: 16px; }
+  .footer-cards {
+    font-size: 14px;
+    line-height: 22px; }
+  .header-fixed .header-logo {
+    width: 55px;
+    height: 35px;
+    background: url(../images/logo-fixed-mob.png) 0 0 no-repeat;
+    margin: 0; }
+  .header-fixed .header-logo img {
+    display: none; }
+  .header-fixed .header-col-2 {
+    flex: 0 0 75px;
+    max-width: 75px;
+    margin: 0; }
+  .header-fixed .header-col-1 {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+  .header-fixed .header-col-3 {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%; }
+  .header-fixed .header-button .btn-1,
+  .header-fixed .header-button .btn-1:focus {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 7px 10px; }
+  .header-fixed .header-phone {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    margin-top: 6px; }
+  .header-fixed .header-content {
+    padding: 8px 0 8px 0; }
+  .header-fixed .header-content .row {
+    flex-wrap: nowrap; }
+  .section-top {
+    padding-top: 214px; } }

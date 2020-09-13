@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>LeRouge Moscow Cabaret</title>
+    <!--link(rel="icon" type="image/png" href="icon-16.png" sizes="16x16")-->
+    <!--link(rel="icon" type="image/png" href="icon-32.png" sizes="32x32")-->
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="js/bootstrap-fileinput/css/fileinput.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+  </head>
+  <body>
+    <div class="over-wrapper">
+      <div id="mobile-indicator"></div>
+      <div id="sm-indicator"></div>
+      <header>
+        <div class="container">
+          <div class="header-content">
+            <div class="row">
+              <div class="col header-col-1">
+                <div class="header-contacts">
+                  <div class="header-phone"><a href="tel:+7 (499) 951-78-81">+7 (499) 951-78-81</a></div>
+                  <div class="header-address">
+                    <p>Москва, Б. Путинковский переулок, 5</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col header-col-2">
+                <div class="header-logo"><img src="images/logo.png" alt="Le Rouge"></div>
+              </div>
+              <div class="col header-col-3">
+                <div class="header-button"><a class="btn btn-1" href="#" data-toggle="modal" data-target="#orderModal">Резерв стола</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="page-wrapper">
+          <!-- Верхний блок-->
+          <div class="section section-top">
+            <div class="container">
+              <div class="section-content">
+                <div class="section-top-pic" style="background-image: url(images/section-top-pic.jpg);"></div>
+                <div class="row">
+                  <div class="col section-top-col-l">
+                    <div class="top-circle top-circle-pink">
+                      <div class="top-circle-glow"></div>
+                      <div class="top-circle-content">
+                        <p>Лучший<br>стриптиз клуб<br>для настоящих<br>мужчин</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col section-top-col-r">
+                    <div class="top-circle top-circle-blue">
+                      <div class="top-circle-glow"></div>
+                      <div class="top-circle-content">
+                        <p>Строго<br><span>18+</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col section-top-col-bottom">
+                    <div class="section-top-text">
+                      <div class="section-top-ttl">
+                        <h1>Единственное<br>шоу-кабаре Москвы</h1>
+                      </div>
+                      <div class="section-top-sub-ttl">
+                        <p>где каждый день вас ждёт</p>
+                      </div>
+                      <div class="section-top-arrow"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Верхний блок END-->
+          <!-- Шоу-программы-->
+          <div class="section section-show">
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <h2>Уникальная <span class="nobr">шоу-программа</span></h2>
+                </div>
+                <div class="show-slider-wrapper">
+                  <div class="show-slider">
+                    <div class="slide"><a class="show-tmb" href="files/show-1.jpg" data-fancybox="show"><img src="files/show-1-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-2.jpg" data-fancybox="show"><img src="files/show-2-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-3.jpg" data-fancybox="show"><img src="files/show-3-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-1.jpg" data-fancybox="show"><img src="files/show-1-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-2.jpg" data-fancybox="show"><img src="files/show-2-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-3.jpg" data-fancybox="show"><img src="files/show-3-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-1.jpg" data-fancybox="show"><img src="files/show-1-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-2.jpg" data-fancybox="show"><img src="files/show-2-tmb.jpg"></a></div>
+                    <div class="slide"><a class="show-tmb" href="files/show-3.jpg" data-fancybox="show"><img src="files/show-3-tmb.jpg"></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Шоу-программы	END-->
+          <!-- Подарок-->
+          <div class="section section-gift">
+            <div class="section-bg section-gift-bg"></div>
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <h2 class="text-glow"><span>Получить подарок</span></h2>
+                </div>
+                <div class="col-narrow">
+                  <div class="order-form">
+                    <form id="giftForm">
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="form-group">
+                            <label class="placeholder" for="gift_name">Как вас зовут?</label>
+                            <input id="gift_name" type="text" name="gift_name" required>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="form-group">
+                            <label class="placeholder" for="gift_phone">Телефон</label>
+                            <input class="input-phone" id="gift_phone" type="text" name="gift_phone" required>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-footer">
+                            <button class="btn btn-1" type="submit">Отправить</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Подарок END-->
+          <!-- Акции-->
+          <div class="section section-actions">
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <h2>Ежедневные акции</h2>
+                </div>
+                <div class="slider-wrapper actions-slider-wrapper">
+                  <div class="actions-slider">
+                    <div class="slide"><a class="action-tmb" href="files/action-1.jpg" data-fancybox>
+                        <div class="action-tmb-descr">
+                          <div class="action-sub-ttl">Каждый</div>
+                          <div class="action-ttl"><span>понедельник</span></div>
+                        </div>
+                        <div class="action-tmb-pic"><img src="files/action-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="action-tmb" href="files/action-2.jpg" data-fancybox>
+                        <div class="action-tmb-descr">
+                          <div class="action-sub-ttl">Вторник-пятница</div>
+                          <div class="action-ttl"><span>будни</span></div>
+                        </div>
+                        <div class="action-tmb-pic"><img src="files/action-2-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="action-tmb" href="files/action-3.jpg" data-fancybox>
+                        <div class="action-tmb-descr">
+                          <div class="action-sub-ttl"><span>12:00 - 13:00</span></div>
+                          <div class="action-ttl"><span>Счастливый час</span></div>
+                        </div>
+                        <div class="action-tmb-pic"><img src="files/action-3-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="action-tmb" href="files/action-1.jpg" data-fancybox>
+                        <div class="action-tmb-descr">
+                          <div class="action-sub-ttl">Каждый</div>
+                          <div class="action-ttl"><span>понедельник</span></div>
+                        </div>
+                        <div class="action-tmb-pic"><img src="files/action-1-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="action-tmb" href="files/action-2.jpg" data-fancybox>
+                        <div class="action-tmb-descr">
+                          <div class="action-sub-ttl">Вторник-пятница</div>
+                          <div class="action-ttl"><span>будни</span></div>
+                        </div>
+                        <div class="action-tmb-pic"><img src="files/action-2-tmb.jpg"></div></a></div>
+                    <div class="slide"><a class="action-tmb" href="files/action-3.jpg" data-fancybox>
+                        <div class="action-tmb-descr">
+                          <div class="action-sub-ttl"><span>12:00 - 13:00</span></div>
+                          <div class="action-ttl"><span>Счастливый час</span></div>
+                        </div>
+                        <div class="action-tmb-pic"><img src="files/action-3-tmb.jpg"></div></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Акции	END-->
+          <!-- Девушки-->
+          <div class="section section-girls">
+            <div class="section-bg section-girls-bg"></div>
+            <div class="container">
+              <div class="section-content">
+                <div class="section-girls-pic"><img src="images/dream-pic.png" style="width:320px;"></div>
+                <div class="section-header">
+                  <h2>Девушки,<br>которые сведут тебя с ума</h2>
+                </div>
+                <div class="girls-gallery">
+                  <div class="row">
+                    <div class="col"><a class="girl-tmb" href="files/girl-1.jpg" data-fancybox="girls_gal"><img src="files/girl-1-tmb.jpg"></a></div>
+                    <div class="col"><a class="girl-tmb" href="files/girl-2.jpg" data-fancybox="girls_gal"><img src="files/girl-2-tmb.jpg"></a></div>
+                    <div class="col"><a class="girl-tmb" href="files/girl-3.jpg" data-fancybox="girls_gal"><img src="files/girl-3-tmb.jpg"></a></div>
+                    <div class="col"><a class="girl-tmb" href="files/girl-4.jpg" data-fancybox="girls_gal"><img src="files/girl-4-tmb.jpg"></a></div>
+                    <div class="col"><a class="girl-tmb" href="files/girl-5.jpg" data-fancybox="girls_gal"><img src="files/girl-5-tmb.jpg"></a></div>
+                    <div class="col"><a class="girl-tmb" href="files/girl-6.jpg" data-fancybox="girls_gal"><img src="files/girl-6-tmb.jpg"></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Девушки	END-->
+          <!-- Будет жарко-->
+          <div class="section section-gift section-heat">
+            <div class="section-bg section-gift-bg"></div>
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <h2 class="text-glow"><span>Будет жарко!</span></h2>
+                  <div class="section-sub-ttl">
+                    <p>Сделай резерв, и&nbsp;мы&nbsp;гарантируем, что эту ночь ты&nbsp;не&nbsp;забудешь...</p>
+                  </div>
+                </div>
+                <div class="col-narrow">
+                  <div class="order-form">
+                    <form id="giftForm">
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="form-group">
+                            <label class="placeholder" for="heat_name">Как вас зовут?</label>
+                            <input id="heat_name" type="text" name="heat_name" required>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="form-group">
+                            <label class="placeholder" for="heat_phone">Телефон</label>
+                            <input class="input-phone" id="heat_phone" type="text" name="heat_phone" required>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="form-footer">
+                            <button class="btn btn-1" type="submit">Отправить</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Будет жарко	END-->
+          <!-- Меню-->
+          <div class="section section-menu">
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <h2>воплоти свои желания в&nbsp;реальность</h2>
+                </div>
+                <div class="menu-wrapper">
+                  <div class="menu-pic"><img src="images/menu-pic.png"></div>
+                  <div class="row">
+                    <div class="col menu-col-l">
+                      <div class="menu-tmb">
+                        <div class="menu-tmb-pic"><img src="files/menu-1.jpg"></div>
+                        <div class="menu-tmb-descr">
+                          <h3 class="text-glow"><span>Crazy меню</span></h3>
+                          <p>Наше крейзи меню создана для настоящих ценителей женского тела</p>
+                          <div class="menu-tmb-button"><a class="btn btn-1" href="#">Смотреть</a></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col menu-col-r">
+                      <div class="menu-tmb">
+                        <div class="menu-tmb-pic"><img src="files/menu-2.jpg"></div>
+                        <div class="menu-tmb-descr">
+                          <h3 class="text-glow"><span>Меню</span></h3>
+                          <p>Наш шеф повар утолит самые изысканные ваши запросы</p>
+                          <div class="menu-tmb-button"><a class="btn btn-1" href="#">Смотреть</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Меню	END-->
+          <!-- Стоимость входа-->
+          <div class="section section-price">
+            <div class="section-bg section-gift-bg"></div>
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <h2>Стоимость входа</h2>
+                </div>
+                <div class="col-narrow">
+                  <div class="price-wrapper">
+                    <div class="row">
+                      <div class="col">
+                        <div class="price-tmb">
+                          <div class="price-tmb-glow"></div>
+                          <div class="price-tmb-inner">
+                            <div class="price-tmb-pic"><img src="images/price-1.png"></div>
+                            <div class="price-tmb-descr">
+                              <div class="price-tmb-ttl">Для неё</div>
+                              <div class="price-tmb-price">3500 &#8381;</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="price-tmb price-tmb-alt">
+                          <div class="price-tmb-glow"></div>
+                          <div class="price-tmb-inner">
+                            <div class="price-tmb-pic"><img src="images/price-2.png"></div>
+                            <div class="price-tmb-descr">
+                              <div class="price-tmb-ttl">Для него</div>
+                              <div class="price-tmb-price">2000 &#8381;</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Стоимость входа	END-->
+          <!-- Контакты-->
+          <div class="section section-contacts">
+            <div class="contacts-bg contacts-bg-l"><img src="images/contacts-bg-l.png"></div>
+            <div class="contacts-bg contacts-bg-r"><img src="images/contacts-bg-r.png"></div>
+            <div class="container">
+              <div class="section-content">
+                <div class="section-header">
+                  <div class="h2">мы&nbsp;ждем вас в&nbsp;<span>Le&nbsp;Rouge</span></div>
+                </div>
+                <div class="contacts-wrapper">
+                  <div class="contacts-address">
+                    <p>Москва, Большой Путинковский переулок, 5</p>
+                  </div>
+                  <div class="contacts-buttons">
+                    <div class="row">
+                      <div class="col"><a class="btn btn-1" href="#">Резерв стола</a></div>
+                      <div class="col"><a class="btn btn-2" href="tel: +7 (499) 951-78-81">+7 (499) 951-78-81</a></div>
+                    </div>
+                  </div>
+                  <div class="contacts-map-wrapper">
+                    <div class="contacts-map" id="contactsMap"></div>
+                  </div>
+                  <div class="timetable">
+                    <div class="row">
+                      <div class="col col-timetable-1">
+                        <div class="timetable-item">
+                          <div class="timetable-ttl">ВС-ЧТ</div>
+                          <div class="timetable-time">21:00 - 06:00</div>
+                        </div>
+                      </div>
+                      <div class="col col-timetable-2">
+                        <div class="timetable-pic"><img src="images/timetable-pic.svg"></div>
+                      </div>
+                      <div class="col col-timetable-3">
+                        <div class="timetable-item">
+                          <div class="timetable-ttl">ПТ-СБ</div>
+                          <div class="timetable-time">21:00 - 07:00</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Контакты	END-->
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="footer-content">
+            <div class="col-narrow">
+              <div class="footer-top">
+                <div class="row">
+                  <div class="col footer-col-1"><a class="footer-link" href="https://showgirlsclub.com/" target="_blank">
+                      <div class="footer-link-glow"></div>
+                      <div class="footer-link-inner"><img src="images/footer-logo-1.png"></div></a></div>
+                  <div class="col footer-col-2">
+                    <div class="footer-logo"><a href="#"><img src="images/logo.png" alt="LeRouge"></a></div>
+                  </div>
+                  <div class="col footer-col-3"><a class="footer-link footer-link-alt" href="https://www.showgirlscabaret.ru/" target="_blank">
+                      <div class="footer-link-glow"></div>
+                      <div class="footer-link-inner"><img src="images/footer-logo-2.png"></div></a></div>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                <div class="footer-copy"><span>&copy; 2020 LeRouge Cabaret</span></div>
+                <div class="footer-cards">
+                  <p>Карты Клуба привилегий Le&nbsp;Rouge действуют так&nbsp;же в&nbsp;клубах Show girls Екатеринбург и&nbsp;Show Girls Челябинск</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--include modals.pug-->
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap-select.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/additional-methods.min.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/wNumb.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/fancybox/jquery.fancybox.min.js"></script>
+      <script src="js/greensock/TweenMax.min.js"></script>
+      <script src="js/greensock/plugins/CSSRulePlugin.min.js"></script>
+      <script src="js/greensock/plugins/ScrollToPlugin.min.js"></script>
+      <script src="js/iscroll-probe.js"></script>
+      <script src="js/scrollmagic/ScrollMagic.min.js"></script>
+      <script src="js/scrollmagic/plugins/animation.gsap.min.js"></script>
+      <script src="js/jquery.mousewheel.js"></script>
+      <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
+      <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+      <script src="js/main.js"></script>
+      <script src="js/animations.js"></script>
+    </div>
+  </body>
+</html>
